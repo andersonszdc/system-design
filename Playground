@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T18:31:58.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="Ng1Jvi-x34So698aoRY7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T19:07:58.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="vQAYnOq-y0qvX8jU4zIM" type="github">
   <diagram id="M-fGDoTfjRcC1Ada6BnO" name="Page-1">
     <mxGraphModel dx="1021" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,11 +10,23 @@
         <mxCell id="zCZgoE7pXRRLKyKa2cOi-1" value="E-commerce" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="140" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="zCZgoE7pXRRLKyKa2cOi-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zCZgoE7pXRRLKyKa2cOi-2" target="zCZgoE7pXRRLKyKa2cOi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zCZgoE7pXRRLKyKa2cOi-2" value="Mono-backend" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="295" y="400" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="zCZgoE7pXRRLKyKa2cOi-4" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="310" y="620" width="120" height="110" as="geometry" />
+          <mxGeometry x="310" y="680" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zCZgoE7pXRRLKyKa2cOi-6" value="Pagar.me" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCZgoE7pXRRLKyKa2cOi-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="zCZgoE7pXRRLKyKa2cOi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="550" as="sourcePoint" />
+            <mxPoint x="450" y="550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
